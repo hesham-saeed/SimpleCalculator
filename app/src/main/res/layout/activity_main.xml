@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
     tools:context="com.hesham.android.simplecalculator.MainActivity">
 
     <TextView
@@ -41,26 +40,26 @@
             android:id="@+id/subtractButton"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="20dp"
             android:text="-"/>
 
         <Button
             android:id="@+id/addButton"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="20dp"
             android:text="+"/>
         <Button
             android:id="@+id/multiplyButton"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="20dp"
             android:text="*"/>
         <Button
             android:id="@+id/divideButton"
             android:layout_width="56dp"
             android:layout_height="56dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="20dp"
             android:text="/"/>
 
     </LinearLayout>
