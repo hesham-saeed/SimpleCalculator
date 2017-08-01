@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.hesham.android.simplecalculator.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter 2 numbers"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <EditText
+        android:id="@+id/firstNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/secondNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:inputType="numberDecimal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/subtractButton"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginRight="30dp"
+            android:text="-"/>
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginRight="30dp"
+            android:text="+"/>
+        <Button
+            android:id="@+id/multiplyButton"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginRight="30dp"
+            android:text="*"/>
+        <Button
+            android:id="@+id/divideButton"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginRight="30dp"
+            android:text="/"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"/>
+</LinearLayout>
